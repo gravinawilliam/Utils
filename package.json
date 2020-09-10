@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Pacote com algoritmos úteis e reutilizáveis",
+  "main": "src/index.ts",
+  "repository": "https://github.com/rbmelolima/Utils",
+  "author": "Roger Bernardo de Melo Lima <rbmelolima@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.0"
+  }
+}
