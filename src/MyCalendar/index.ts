@@ -1,9 +1,17 @@
-export default  class Time {
+export default class MyCalendar {
   readonly months = [
-    'Janeiro', 'Fevereiro', 'Março',
-    'Abril', 'Maio', 'Junho',
-    'Julho', 'Agosto', 'Setembro',
-    'Outubro', 'Novembro', 'Dezembro'
+    'Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',
+    'Julho',
+    'Agosto',
+    'Setembro',
+    'Outubro',
+    'Novembro',
+    'Dezembro'
   ];
 
   readonly weekdays = [
@@ -17,8 +25,13 @@ export default  class Time {
   ];
 
   readonly weekdaysShort = [
-    'Seg', 'Ter', 'Qua', 'Qui',
-    'Sex', 'Sab', 'Dom'
+    'Dom',
+    'Seg',
+    'Ter',
+    'Qua',
+    'Qui',
+    'Sex',
+    'Sab'
   ];
 
   convertSecondsInTime(seconds: number): string {

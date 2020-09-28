@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 
-export default  class Password {
+export default class Password {
   hash(bytesLength: number): string {
     const newHash = crypto.randomBytes(bytesLength).toString('hex');
     return newHash;

@@ -1,16 +1,16 @@
-import Alerts from './Alerts';
+import MyAlerts from './MyAlerts';
 import IBGE from './IBGE';
 import Password from './Password';
-import Time from './Time';
+import MyCalendar from './MyCalendar';
 import URL from './URL';
 import WebStorage from './WebStorage';
 import Whatsapp from './Whatsapp';
 
 export {
-  Alerts,
+  MyAlerts,
   IBGE,
   Password,
-  Time,
+  MyCalendar,
   URL,
   WebStorage,
   Whatsapp
